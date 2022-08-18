@@ -12,20 +12,31 @@ X = (18/9 * 2 + 16) – ( 5 * 4 – 3^3)
       X = 24
 
 X = (5 + 2 * 4) – (25 +. 5) * 2
-
-      TU RESPUESTA AQUI
+X = (5 + 8) - (25 +. 5)*2
+X = 13 - 35.5*2
+X = 13 - 51
+X = -38
+     
 
 X = (100/5^2 + 1) + 11 * 3
-
-      TU RESPUESTA AQUI
+X = (100/25 + 1) + 11 * 3
+X = (4 + 1) + 11*3
+X = 5 + 11 * 3
+X = 5 + 33
+X = 38
+      
 
 X = ((8-6)^2*3)^3.
+X = ((2)^2*3)^3
+X = (4*3)^3
+X = 12^3
+X = 1728
 
-      TU RESPUESTA AQUI
-
-x = ((8+5) *4) * (10-6)/4) 
-
-      TU RESPUESTA AQUI
+x = ((8+5) *4) * ((10-6)/4) 
+x = (13 * 4) * ((10-6)/4)
+x = 52 * (4/4)
+x = 52 * 1
+x = 52
 
 ## OPERADORES RELACIONALES
 Reto. Una empresa de logística ofrece a sus trabajadores un bono de
@@ -35,7 +46,9 @@ notifica que ha sido acreedor al bono de puntualidad. Si el empleado tiene
 baja al final del mes. Describe tal situación usando operadores
 relacionales.
 
-      TU RESPUESTA AQUI
+      1.-Inicio
+      2.-Declarar(retardos, suspenciones, hora)
+      3.-hora==1
 
 Reto. Analiza el problema y selecciona la opción que consideres que lo
 resuelve:
