@@ -47,8 +47,9 @@ baja al final del mes. Describe tal situación usando operadores
 relacionales.
 
       1.-Inicio
-      2.-Declarar(retardos, suspenciones, hora)
-      3.-hora==1
+      2.-Declarar(retardos, suspenciones, hora,entrada)
+      3.-hora==8:00
+      4.-Operación
 
 Reto. Analiza el problema y selecciona la opción que consideres que lo
 resuelve:
