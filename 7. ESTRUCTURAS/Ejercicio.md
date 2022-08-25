@@ -44,4 +44,18 @@
 
 3. Realizar un algoritmo y diagrama de flujo para un programa que solicite un número e indique si es par o impar.
 
-        TU ALGORITMO Y DIAGRAMA AQUI
+        
+        1.-Inicio
+        2.-Declarar int(num)
+        3.-Mostrar("Introduzca un número entero")
+        4.-Leer(num)
+        5.-Si num/2 = int ENTONCES
+                Mostrar("numm es un número par)
+                SINO
+                Mostrar("num es un número impar")
+        6.-FIN        
+      ![image](https://user-images.githubusercontent.com/111446203/186554317-683530c1-131c-4ebe-9845-16a275c5c635.png)
+      ![image](https://user-images.githubusercontent.com/111446203/186555602-3544aff7-5b22-4ee3-9db0-957b4c6b92f8.png)
+
+
+        
