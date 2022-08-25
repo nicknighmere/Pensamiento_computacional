@@ -21,8 +21,21 @@
         5.-Leer(metros)
         6.-Mostrar("metros en yardas son:",metros*yardas)
         7.FIN
+      ![image](https://user-images.githubusercontent.com/111446203/186547960-348d89fe-1451-41ff-9d38-195d007d2b5f.png)
+
 
 
 3. Realizar el algoritmo y diagrama de flujo de un programa que calcule el área de un triángulo.
 
-       AQUI TU ALGORITMO Y DIAGRMA DE FLUJO
+       1.-Inicio
+       2.-Declara float(base, altura, area)
+       3.-Mostrar("Ingrese la medida de la base del triangulo)
+       4.-Leer(base)
+       5.-Mostrar("Ingrese la altura del triangulo)
+       6.-Leer(altura)
+       7.-Proceso area=(base*altura)/2
+       8.-Mostrar("El area del triangulo es:", area)
+      ![image](https://user-images.githubusercontent.com/111446203/186548694-d747a326-b5c0-4b90-972d-2f391d020262.png)
+      ![image](https://user-images.githubusercontent.com/111446203/186548718-3150f7ef-220e-4122-85fb-e3194c806c0d.png)
+
+
