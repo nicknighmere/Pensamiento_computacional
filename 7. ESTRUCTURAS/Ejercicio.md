@@ -56,6 +56,48 @@
         6.-FIN        
       ![image](https://user-images.githubusercontent.com/111446203/186554317-683530c1-131c-4ebe-9845-16a275c5c635.png)
       ![image](https://user-images.githubusercontent.com/111446203/186555602-3544aff7-5b22-4ee3-9db0-957b4c6b92f8.png)
+      
+      
+      
+      
+      
+      
+      
+      Algoritmo sin_titulo
+	num1=0
+	num2=0
+	num3=0
+	Escribir "Introduce un número"
+	leer num1
+	escribir"Introduce otro número"
+	Leer num2
+	Escribir "Introduce otro número porfa"
+	Leer num3
+	Si num1<num2 Entonces
+		Si num2<num3  Entonces
+			Escribir num1,", " num2,", " num3
+			Si num3<num1 Entonces
+				Escribir num1,", " num3,", " num2 
+			FinSi
+		FinSi
+	FinSi
+	Si num2<num3 Entonces
+		Si num3<num1 Entonces
+			Escribir num2,", " num3,", " num1 
+			Si num1<num2
+				Escribir num2,", " num1,", " num3
+			FinSi
+		FinSi
+	FinSi
+	Si num3<num1 Entonces
+		Si  num1<num2
+			Escribir num3,", " num1,", " num2
+			Si num2<num3
+				Escribir num3,", " num2,", " num1 
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo
 
 
         
