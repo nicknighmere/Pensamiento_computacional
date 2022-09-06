@@ -4,25 +4,25 @@ Algoritmo sin_titulo
 	vidas=5
 	Escribir rad
 	Escribir "============================================="
-	Escribir "	  BIENVENIDOS AL JUEGO DELNÚMERO SECRETO"
+	Escribir "	  BIENVENIDOS AL JUEGO DELNÃšMERO SECRETO"
 	Escribir "============================================="
 	Escribir "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*"
-	Escribir "Instrucciones: Adivina el número secreto del 0 al 100"
+	Escribir "Instrucciones: Adivina el nÃºmero secreto del 0 al 100"
 	Escribir "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*"
-	Escribir"¿Cual crees que sea el número secreto?"
+	Escribir"Â¿Cual crees que sea el nÃºmero secreto?"
 	Escribir "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*"
 	Leer num
 	Mientras vidas>0 y rad <> num Hacer
 		Si num<rad Entonces
 			Escribir"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-			Mostrar "El número ",num," es menor al número secreto"
+			Mostrar "El nÃºmero ",num," es menor al nÃºmero secreto"
 			vidas<-vidas-1
 			Escribir"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 			Mostrar "Trata otra vez, tienes ",vidas," vidas"
 			Leer num
 		SiNo
 			Escribir"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-			Mostrar "El número ",num," es mayor al número secreto"
+			Mostrar "El nÃºmero ",num," es mayor al nÃºmero secreto"
 			vidas<-vidas-1
 			Escribir"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 			Mostrar "Trata otra vez, tienes ",vidas," vidas"
@@ -30,7 +30,7 @@ Algoritmo sin_titulo
 		fin si	
 	Fin Mientras
 	Si num<>rad Entonces
-		Escribir "Perdiste, se acabaron tus vidas, el número secreto era: ",rad
+		Escribir "Perdiste, se acabaron tus vidas, el nÃºmero secreto era: ",rad
 	SiNo
 		Escribir "Felicidades le atinaste y te quedaron ",vidas," oportunidades"
 	FinSi
