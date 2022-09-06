@@ -1,0 +1,37 @@
+Algoritmo sin_titulo
+	rad=azar[100]
+	num=0
+	vidas=5
+	Escribir rad
+	Escribir "============================================="
+	Escribir "	  BIENVENIDOS AL JUEGO DELNÚMERO SECRETO"
+	Escribir "============================================="
+	Escribir "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*"
+	Escribir "Instrucciones: Adivina el número secreto del 0 al 100"
+	Escribir "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*"
+	Escribir"¿Cual crees que sea el número secreto?"
+	Escribir "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*"
+	Leer num
+	Mientras vidas>0 y rad <> num Hacer
+		Si num<rad Entonces
+			Escribir"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+			Mostrar "El número ",num," es menor al número secreto"
+			vidas<-vidas-1
+			Escribir"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+			Mostrar "Trata otra vez, tienes ",vidas," vidas"
+			Leer num
+		SiNo
+			Escribir"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+			Mostrar "El número ",num," es mayor al número secreto"
+			vidas<-vidas-1
+			Escribir"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+			Mostrar "Trata otra vez, tienes ",vidas," vidas"
+			Leer num
+		fin si	
+	Fin Mientras
+	Si num<>rad Entonces
+		Escribir "Perdiste, se acabaron tus vidas, el número secreto era: ",rad
+	SiNo
+		Escribir "Felicidades le atinaste y te quedaron ",vidas," oportunidades"
+	FinSi
+FinAlgoritmo
